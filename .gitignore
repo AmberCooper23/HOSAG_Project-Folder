@@ -1,0 +1,19 @@
+# Node modules (frontend + backend)
+node_modules/
+
+# Logs
+*.log
+
+# Environment files (ignore all .envs)
+.env
+frontend/.env
+server/.env
+.envtokens
+
+# Model weights
+*.pt
+*.safetensors
+
+# Python cache
+__pycache__/
+*.pyc
